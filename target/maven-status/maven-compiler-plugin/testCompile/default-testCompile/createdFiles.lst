@@ -1,0 +1,9 @@
+com\w2a\Testcase\OpenAccount.class
+com\w2a\utilities\ExtentManager.class
+com\w2a\utilities\TestUtil.class
+com\w2a\utilities\ExcelReader.class
+com\w2a\Testcase\LoginTest.class
+com\w2a\roughwork\TestProperties.class
+com\w2a\listeners\Listnener.class
+com\w2a\base\TestBase.class
+com\w2a\Testcase\Addcustomer.class

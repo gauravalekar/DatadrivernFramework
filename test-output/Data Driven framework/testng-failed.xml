@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven framework]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.w2a.listeners.Listnener"/>
+  </listeners>
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="com.w2a.Testcase.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.w2a.Testcase.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Data Driven framework] -->

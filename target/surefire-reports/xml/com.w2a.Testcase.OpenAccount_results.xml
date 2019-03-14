@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Account"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.919">
+  <properties />
+  
+  
+            <testcase name="openaccount" time="2.919" classname="com.w2a.Testcase.OpenAccount" />
+      
+</testsuite>
